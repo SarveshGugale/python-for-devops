@@ -2,6 +2,8 @@
 
 FROM python:3.14
 
+LABEL maintainer = "sarveshgugale09@gmail.com"
+
 # Add ingredients
 
 WORKDIR /app
